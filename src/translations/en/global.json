@@ -1,0 +1,32 @@
+{
+    "header": {
+        "hello": "Hello, I´m",
+        "job": "Fullstack Developer",
+        "download-cv":"Download CV",
+        "lets-talk":"Let´s Talk",
+        "":"" 
+    },
+    "nav":{
+        "home":"Home",
+        "about":"About",
+        "experience":"Experience",
+        "services":"Services",
+        "contact":"Contact"
+    },
+    "languages":{
+        "english":"English",
+        "spanish":"Spanish"
+    },
+    "About-me":{
+        "get-to-know":"Get To Know",
+        "about-me":"About Me",
+        "experience":"Experience",
+        "exp-description":"Year Working",
+        "cop-countries":"In Spain",
+        "projects-completed":"Completed",
+        "companies":"Companies",
+        "projects":"Projects",
+        "lets-talk":"Let´s Talk",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, officia neque, modi nulla ipsa possimus officiis sunt dolore consequatur natus, exercitationem pariatur iusto? Voluptates, reprehenderit dolor dolorem culpa commodi natus omnis, distinctio earum quas vero consequuntur. Inventore tempora neque veniam?"
+    }
+}
