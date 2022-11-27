@@ -42,10 +42,10 @@ const Nav = ({t}) => {
         <AiOutlineFundProjectionScreen />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("services")}
-        className={checkActive("services")}
-        title={t('nav.services')}
+        href="#portfolio"
+        onClick={() => setActiveNav("portfolio")}
+        className={checkActive("portfolio")}
+        title={t('nav.portfolio')}
       >
         <RiServiceLine />
       </a>

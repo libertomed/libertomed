@@ -1,5 +1,6 @@
 section {
     padding-top: 2rem;
+    border-top: 1px solid black;
 }
 .about__container {
     display: grid;
@@ -180,4 +181,7 @@ section {
         width: 15rem;
     }
 
+    section {
+        height: 150vh;
+    }
 }

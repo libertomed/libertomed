@@ -39,11 +39,13 @@
 
 .experience__details {
     display: flex;
-    gap: 1rem;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
 }
 
 .experience__details small {
-    font-size: 0.7rem;
+    font-size: .8rem;
     color: var(--color-light);
 }
 
@@ -55,7 +57,7 @@
 .experience__frontend {
     background-image: url(../../assets/bgskills.png);
     background-repeat: no-repeat;
-    background-size: 35rem;
+    background-size: 100% 100%;
 
     transition: var(--transition);
 }
@@ -63,7 +65,7 @@
 .experience__balckend { 
     background-image: url(../../assets/bgskills2.png);
     background-repeat: no-repeat;
-    background-size: 35rem;
+    background-size: 100% 100%;
 }
 
 .my__atropos2{
@@ -93,6 +95,10 @@
     .experience__container {
         gap: 1rem;
     }
+    
+    /* #experience{
+        padding-top: 30rem;
+    } */
 
     .experience__container > div {
         width: 100%;
