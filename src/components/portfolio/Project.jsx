@@ -2,7 +2,6 @@ import React from "react";
 import { VscGithub } from 'react-icons/vsc'
 
 const Project = ({title, liveUri, gitHubUri, image}) => {
-    console.log(image);
     const myStyle = {
         backgroundImage: `linear-gradient(
             #2c2c6caa,

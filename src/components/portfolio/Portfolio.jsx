@@ -10,10 +10,6 @@ const projects = [
   { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
   { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
   { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
-  { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
-  { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
-  { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
-  { title: 'Deer Hunter', liveUri: 'https://github.com/', gitHubUri: 'https://github.com', image: DEER },
 ]
 
 const Portfolio = () => {

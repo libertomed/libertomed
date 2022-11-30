@@ -5,7 +5,6 @@ const ProjectsList = ({projects}) => {
     console.log(projects);
     const renderList = () => {
         return projects.map( (project) => {
-            console.log(project);
             return (
                 <Project
                     title={project.title}
