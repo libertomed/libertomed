@@ -5,7 +5,6 @@
 
 section {
     padding-top: 2rem;
-    border-top: 1px solid black;
 }
 .about__container {
     display: grid;
@@ -14,10 +13,10 @@ section {
 }
 
 .about__me {
-    width: 21rem;
+    width: 22rem;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    border-radius: 50%;
+    background: linear-gradient(45deg, var(--color-primary), var(--color-primary), var(--color-primary));
     display: grid;
     place-items: center;
     transform: rotate(10deg);
@@ -25,17 +24,17 @@ section {
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    margin: 1.5rem 0rem 0 1.7rem;
+    border-radius: 50%;
     overflow: hidden;
+    width: 18rem;
     transform: rotate(-20deg);
     transition: var(--transition);
 }
 
-.about__me:hover{
-    transform: rotate(0deg);
-}
 .about__me:hover .about__me-image{
-    transform: rotate(0deg);
+    margin: 0;
+    width: 22rem;
 }
 
 /* .about__me-image:hover {
