@@ -37,11 +37,11 @@ const Contact = ({t}) => {
             <h5>libertomed@gmail.com</h5>
             <a href="mailto:libertomed@gmail.com">{t('contact.send-message')}</a>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=34649936289" target="_blank" rel="noreferrer" className="contact__option">
+          <a href="https://api.whatsapp.com/send?phone=34691390733" target="_blank" rel="noreferrer" className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>WhatsApp</h4>
             <h5>+34 ...33</h5>
-            <a href="https://api.whatsapp.com/send?phone=34649936289">{t('contact.send-message')}</a>
+            <a href="https://api.whatsapp.com/send?phone=34691390733">{t('contact.send-message')}</a>
           </a>
         </div>
         <form ref={form} onSubmit={sendEmail}>
