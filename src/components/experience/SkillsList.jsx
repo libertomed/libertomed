@@ -1,7 +1,6 @@
 import  { React, useState }  from "react";
 
-
-const SkillsList = ({skills}) => {
+const SkillsList = ({skills, t}) => {
 
   const [isHovering, setIsHovering] = useState(false);
   const [classNameIcon, setClassNameIcon] = useState('');
@@ -43,7 +42,7 @@ const SkillsList = ({skills}) => {
                 onMouseLeave={handleMouseLeave}
                 style={isHovering && classNameIcon === 'experience__icon__'+skill.title ? hoverStyle : {}} 
               >{ skill.icon ? <skill.icon  /> : skill.title }</h1>
-              <small>{ skill.level }</small>
+              <small>{ t(skill.level) }</small>
             </div>
         </article>
       )

@@ -6,14 +6,14 @@ import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Contact = () => {
+const Contact = ({t}) => {
 
   const form = useRef()
 
   const sendEmail = (e) => {
     e.preventDefault()
     const id = toast.loading("Sending message...")
-    emailjs.sendForm('service_41zq09f', 'template_drsfl93', form.current, 'zPlu88YwJij6y5QnT')
+    emailjs.sendForm('service_6fd7voe', 'template_ci6rnog', form.current, 'cJAEDucCpkp4t3bvQ')
     .then(() => {
       toast.update(id, { render: "Message sent", type: "success", isLoading: false, autoClose: 5000, });
       e.target.reset()
@@ -26,31 +26,31 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>{t('contact.subtitle')}</h5>
+      <h2>{t('contact.title')}</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
-          <a href="mailto:libertomed@gmail.com" target="_blank" className="contact__option">
+          <a href="mailto:libertomed@gmail.com" target="_blank" rel="noreferrer" className="contact__option">
             <HiOutlineMail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>libertomed@gmail.com</h5>
-            <a>Send a message</a>
+            <a href="mailto:libertomed@gmail.com">{t('contact.send-message')}</a>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=34649936289" target="_blank" className="contact__option">
+          <a href="https://api.whatsapp.com/send?phone=34649936289" target="_blank" rel="noreferrer" className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>WhatsApp</h4>
             <h5>+34 ...33</h5>
-            <a>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=34649936289">{t('contact.send-message')}</a>
           </a>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required/>
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="10" placeholder="Your Message" required></textarea>
+          <input type="text" name='name' placeholder={t('contact.name')} required/>
+          <input type="email" name='email' placeholder={t('contact.email')} required />
+          <textarea name="message" rows="10" placeholder={t('contact.message')} required></textarea>
 
-<div class="form__footer">
-<button type="submit" className="btn btn-primary">Send Message</button>
+<div className="form__footer">
+<button type="submit" className="btn btn-primary">{t('contact.send')}</button>
 
 </div>
           <ToastContainer />

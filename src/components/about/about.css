@@ -1,6 +1,8 @@
 
 #about{
     height:auto;
+    margin-bottom: 15rem;
+
 }
 
 section {
@@ -126,16 +128,16 @@ section {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1424px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
     }
 
-    .about__me {
+    /* .about__me {
         width: 50%;
         margin: 2rem auto;
-    }
+    } */
 
     .about__content p {
         margin: 1rem 0 1.5rem;
@@ -149,10 +151,10 @@ section {
     /* ================ MEDIA QUERIES (SMALL DEVICES) =================== */
     
 @media screen and (max-width: 890px) {
-    .about__me {
+    /* .about__me {
         width: 65%;
         margin: 0 auto 3rem;
-    }
+    } */
 
     .about__cards {
         grid-template-columns: 1fr 1fr;
@@ -182,6 +184,15 @@ section {
 
     .about__me {
         margin-top: 3rem;
+        width: 15rem;
+    }
+
+    .about__me-image{
+        width: 12rem;
+    }
+
+    .about__me:hover .about__me-image{
+        margin: 0;
         width: 15rem;
     }
 }

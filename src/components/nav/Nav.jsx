@@ -1,58 +1,53 @@
 import React from "react";
-import "./nav.css";
 import {
   AiOutlineHome,
   AiOutlineUser,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
-import { RiServiceLine } from "react-icons/ri";
+import {GiClassicalKnowledge} from 'react-icons/gi'
 import { BiMessageSquareDetail } from "react-icons/bi";
-import { useState } from "react";
+import { useNav } from "./useNav";
 
 const Nav = ({t}) => {
-  const [activeNav, setActiveNav] = useState("#");
-
-  const checkActive = (className) => {
-    return activeNav === className ? "active" : "";
-  };
+  const { changeActive } = useNav()
   return (
-    <nav>
+    <nav id="nav">
       <a
         href="#home"
-        onClick={() => setActiveNav("#")}
-        className={checkActive("#")}
+        onClick={() => changeActive("homeNav")}
+        className={"homeNav active"}
         title={t('nav.home')}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
-        onClick={() => setActiveNav("about")}
-        className={checkActive("about")}
+        onClick={() => changeActive("about")}
+        className={"about"}
         title={t('nav.about')}
       >
         <AiOutlineUser />
       </a>
       <a
         href="#experience"
-        onClick={() => setActiveNav("experience")}
-        className={checkActive("experience")}
+        onClick={() => changeActive("experience")}
+        className={"experience"}
         title={t('nav.experience')}
+      >
+        <GiClassicalKnowledge />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => changeActive("portfolio")}
+        className={"portfolio"}
+        title={t('nav.portfolio')}
       >
         <AiOutlineFundProjectionScreen />
       </a>
       <a
-        href="#portfolio"
-        onClick={() => setActiveNav("portfolio")}
-        className={checkActive("portfolio")}
-        title={t('nav.portfolio')}
-      >
-        <RiServiceLine />
-      </a>
-      <a
         href="#contact"
-        onClick={() => setActiveNav("contact")}
-        className={checkActive("#contact")}
+        onClick={() => changeActive("contact")}
+        className={"contact"}
         title={t('nav.contact')}
       >
         <BiMessageSquareDetail />

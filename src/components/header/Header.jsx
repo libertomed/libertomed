@@ -28,7 +28,7 @@ const Header = ({t}) => {
               <h1>Liberto Medina</h1>
               <h5 className="text-light">{t('header.job')}</h5>
               <CTA t={t} />
-              <HeaderSocials />
+                <HeaderSocials />
             </div>
             <img src={ME} alt="liberto medina" data-atropos-offset="-3" />
           </div>

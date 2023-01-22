@@ -1,7 +1,7 @@
 {
     "header": {
         "hello": "Hello, I´m",
-        "job": "Fullstack Developer",
+        "job": "Web Developer",
         "download-cv":"Download CV",
         "lets-talk":"Let´s Talk",
         "":"" 
@@ -11,7 +11,8 @@
         "about":"About",
         "experience":"Experience",
         "services":"Services",
-        "contact":"Contact"
+        "contact":"Contact",
+        "portfolio": "Projects"
     },
     "languages":{
         "english":"English",
@@ -27,6 +28,52 @@
         "companies":"Companies",
         "projects":"Projects",
         "lets-talk":"Let´s Talk",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, officia neque, modi nulla ipsa possimus officiis sunt dolore consequatur natus, exercitationem pariatur iusto? Voluptates, reprehenderit dolor dolorem culpa commodi natus omnis, distinctio earum quas vero consequuntur. Inventore tempora neque veniam?"
+        "description":"<h2>Hello, world!</h2><p> I'm a web developer in the process of detoxing from spaghetti code and learning from the mistakes that the Stack Overflow community and me make. As my ctrl+c and ctrl+v skills develops, I'm improving at choosing which snippet to copy. </p> <p> Thanks to my passion for web development and the opportunities I've had to develop applications on a professional level, I've been able to experience the stress and despair of the lovely impostor syndrome, due to short deadlines. That's why I've become quite proficient with Chat GPT and GitHub Copilot.</p> <p> I hope to keep being a web developer (without getting too many more grey hairs), and keep learning as many technologies as I can, which I don't think is too difficult to achieve, it's not like they were updated every month either... is it? </p>"
+    },
+    "my-experience": {
+        "subtitle":"The Skills I Have",
+        "title":"My Experience",
+        "frontend_title":"Fontend Development",
+        "backend_title":"Backend Development",
+        "basic":"Basic",
+        "intermediate":"Intemediate",
+        "experienced":"Experienced"
+    }, 
+    "portfolio": {
+        "subtitle":"My Recent Work",
+        "title":"Projetcs",
+        "go-life": "Go Live",
+        "symbia":{
+            "title": "Symbia",
+            "description": "Little description"
+        },
+        "lcteu": {
+            "title": "Low Cost Tour Europe",
+            "description": "Little description"
+        },
+        "sportalis": {
+            "title": "Sportalis",
+            "description": "Little description"
+        },
+        "londoncalling": {
+            "title": "London Calling (Online Enrolment)",
+            "description": "Little description"
+        },
+        "exams": {
+            "title": "ExamsLasPalmas",
+            "description": "Little description"
+        }
+    },
+    "contact": {
+        "subtitle": "Get In Touch",
+        "title": "Contact Me",
+        "name": "Yo9ur Full Name",
+        "email":"Your Email",
+        "message":"Your Message",
+        "send": "Send Message",
+        "send-message": "Send a message"
+    },
+    "footer": {
+        "copyright": "All rigth reserved."
     }
 }

@@ -3,8 +3,12 @@ import './about.css'
 import ME from '../../assets/about-me2.jpeg'
 import { FaAward, FaBuilding } from 'react-icons/fa'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { useNav } from "../nav/useNav";
+
 
 const About = ({t}) => {
+  const { changeActive } = useNav() 
+
   return (
     <section id="about">
       <h5>{t('About-me.get-to-know')}</h5>
@@ -17,7 +21,7 @@ const About = ({t}) => {
               <FaAward className="about__icon" />
               <div className="about__info">
                 <h5>{t('About-me.experience')}</h5>
-                <small>1+ {t('About-me.exp-description')}</small>
+                <small>+2 {t('About-me.exp-description')}</small>
               </div>
             </article>
 
@@ -25,7 +29,7 @@ const About = ({t}) => {
               <FaBuilding className="about__icon" />
               <div className="about__info">
                 <h5>{t('About-me.companies')}</h5>
-                <small>3+ {t('About-me.cop-countries')}</small>
+                <small>+2 {t('About-me.cop-countries')}</small>
               </div>
             </article>
 
@@ -33,7 +37,7 @@ const About = ({t}) => {
               <VscFolderLibrary className="about__icon " />
               <div className="about__info">
                 <h5>{t('About-me.projects')}</h5>
-                <small>10+ {t('About-me.projects-completed')}</small>
+                <small>+10 {t('About-me.projects-completed')}</small>
               </div>
             </article>
           </div>
@@ -44,11 +48,16 @@ const About = ({t}) => {
               <img src={ME} alt="About" />
             </div>
           </div>
-          <div className="about__text">
-            <p>
-                {t('About-me.description')}
-            </p>
-            <a href="#contact" className="btn btn-primary">{t('About-me.lets-talk')}</a>
+          <div className="about__text" >
+            <div dangerouslySetInnerHTML={{__html: t('About-me.description')}}>
+            </div>
+            <a 
+              href="#contact" 
+              className="btn btn-primary"
+              onClick={() => changeActive("contact")}
+            >
+              {t('About-me.lets-talk')}
+            </a>
           </div>
         </div>
       </div>

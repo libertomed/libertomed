@@ -39,6 +39,10 @@
     font-size: .8rem;
 }
 
+.contact__option h5 {
+    font-size: 1.2vw
+}
+
 /*============= Form ==============*/
 
 form{
@@ -75,15 +79,15 @@ input:-webkit-autofill:active {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    #contact{
-        height:120vh;
-    }
+    
 }
 
 @media screen and (max-width: 600px){
     .container.contact__container{
         width: var(--container-width-sm);
     }
-    
+    #contact{
+        height:130vh;
+    }
 }
 

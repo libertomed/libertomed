@@ -1,7 +1,7 @@
 {
     "header": {
         "hello": "Hola, soy",
-        "job": "Desarrollador Fullstack",
+        "job": "Desarrollador Web",
         "download-cv":"Descargar CV",
         "lets-talk":"¡Hablemos!",
         "":"" 
@@ -9,9 +9,10 @@
     "nav":{
         "home":"Inicio",
         "about":"Sobre mí",
-        "experience":"Experiencias",
+        "experience":"Habilidades",
         "services":"Servicios",
-        "contact":"Contacto"
+        "contact":"Contacto",
+        "portfolio": "Proyectos"
     },
     "languages":{
         "english":"Inglés",
@@ -21,12 +22,58 @@
         "get-to-know":"Conozcámonos",
         "about-me":"Sobre Mi",
         "experience":"Experiencia",
-        "exp-description":"Año Trabajado",
+        "exp-description":"Años Trabajados",
         "cop-countries":"En España",
         "projects-completed":"Completados",
         "companies":"Empresas",
         "projects":"Projectos",
         "lets-talk":"¡Hablemos!",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, officia neque, modi nulla ipsa possimus officiis sunt dolore consequatur natus, exercitationem pariatur iusto? Voluptates, reprehenderit dolor dolorem culpa commodi natus omnis, distinctio earum quas vero consequuntur. Inventore tempora neque veniam?"
+        "description":"<h2>¡Hola, mundo!</h2><p> Soy un desarrollador web en proceso de desintoxicación del código «espagueti» y que está aprendiendo de los errores que cometemos tanto yo, como la comunidad de Stack Overflow. Al ir desarrollando mis habilidades de ctrl+c y ctrl+v, cada vez elijo mejor el fragmento que tengo que copiar. </p> <p> Gracias a la pasión que siento por el desarrollo web y a las oportunidades que he tenido de desarrollar aplicaciones a nivel profesional, he podido experimentar el estrés y la desesperación del encantador síndrome del impostor debido a los cortos plazos de entrega. Es por ello que he obtenido una gran destreza en el manejo de Chat GPT y GitHub Copilot.</p> <p> Espero continuar siendo desarrollador web (sin que me salgan muchas más canas), y seguir aprendiendo tantas tecnologías como pueda, que no creo que sea tan difícil, tampoco es como si se actualizaran cada mes… ¿o si? </p>"
+    },
+    "my-experience": {
+        "subtitle":"Mis Habilidades",
+        "title":"Experiencia",
+        "frontend_title":"Desarrollo Frontend",
+        "backend_title":"Desarrollo Backend",
+        "basic":"Básico",
+        "intermediate":"Intermedio",
+        "experienced":"Avanzado"
+    }, 
+    "portfolio": {
+        "subtitle":"Trabajos Destacados",
+        "title":"Proyectos",
+        "go-life": "Ver",
+        "symbia":{
+            "title": "Symbia",
+            "description": "Tienda de alquiler de ropa online. <br> Aplicación web y PWA desarrollada con VueJs y Laravel. Contiene integraciones con APIs como Genei, Redsys o Google Maps"
+        },
+        "lcteu": {
+            "title": "Low Cost Tour Europe",
+            "description": "Tienda online de excurciones y actividades. <br> PWA desarrollada con VueJs y Laravel. Contiene integraciones con APIs como Google Maps o API privada del cliente"
+        },
+        "sportalis": {
+            "title": "Sportalis",
+            "description": "Portal web avanzado del mundo deportivo, donde los usuarios pueden demandar u ofertar servicios. <br> Aplicación Web desarrollada con VueJs y Laravel"
+        },
+        "londoncalling": {
+            "title": "London Calling",
+            "description": "Test de nivel y Formulario de matriculación. Al finalizar la matriculación se tiene acceso al contenido de la academia como documentos, clases, chats... <br> Aplicación web desarrollada con VueJs y Laravel"
+        },
+        "exams": {
+            "title": "ExamsLasPalmas",
+            "description": "Portal web gestor de los exámenes de Cambridge Assessment English. <br> Aplicación Web desarrollada con VueJs y Laravel."
+        }
+    },
+    "contact": {
+        "subtitle": "Pongase en contacto",
+        "title": "Contacto",
+        "name": "Nombre completo",
+        "email":"Correo electrónico",
+        "message":"¿De qué te gustaría hablar?",
+        "send": "Enviar",
+        "send-message": "¡Escríbeme!"
+    },
+    "footer": {
+        "copyright": "Todos los derechos reservados."
     }
 }

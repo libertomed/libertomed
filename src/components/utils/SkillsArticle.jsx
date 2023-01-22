@@ -3,7 +3,7 @@ import { FiCheckCircle } from 'react-icons/fi'
 
 const SkillsArticle = ({title, icon, level}) => {
     return (
-        <article class="experience__details">
+        <article className="experience__details">
             <FiCheckCircle />
             <h4>{ title }</h4>
             <small>{ level }</small>
