@@ -41,6 +41,7 @@ const Experience = ({t}) => {
           className='my__atropos2'
           shadow={false}
           highlight={false}
+          rotateTouch={false}
         >
 
           <div className="experience__frontend exp__content_1">
@@ -55,6 +56,7 @@ const Experience = ({t}) => {
           className='my__atropos2'
           shadow={false}
           highlight={false}
+          rotateTouch={false}
         >
           <div className="experience__balckend">
             <h3 data-atropos-offset='5'>{t('my-experience.backend_title')}</h3>

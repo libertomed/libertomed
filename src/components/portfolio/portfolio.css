@@ -63,7 +63,6 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding-bottom: 2rem;
     text-align: center;
     margin:1rem ;
 }

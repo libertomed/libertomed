@@ -11,16 +11,16 @@ const Header = ({t}) => {
     <header id="home">
 
     <Atropos
-      className="my__atropos"
+      className="atropos my__atropos"
       shadow={false}
         highlight={false}
+        rotateTouch={false}
         rotateXMax={5}
         rotateYMax={5}
         rotateChildren
     >
       <div
       className="container header__container"
-        
       >
           <div className="me">
             <div className="header__info">
