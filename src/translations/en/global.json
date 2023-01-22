@@ -45,23 +45,23 @@
         "go-life": "Go Live",
         "symbia":{
             "title": "Symbia",
-            "description": "Little description"
+            "description": "Online clothing rental shop. <br> Web application and PWA developed with VueJs and Laravel. Contains integrations with APIs such as Genei, Redsys or Google Maps."
         },
         "lcteu": {
             "title": "Low Cost Tour Europe",
-            "description": "Little description"
+            "description": "Online shop for excursions and activities. <br> PWA developed with VueJs and Laravel. Contains integrations with APIs like Google Maps or client's private API."
         },
         "sportalis": {
             "title": "Sportalis",
-            "description": "Little description"
+            "description": "Advanced web portal for the world of sports, where users can demand or offer services. <br> Web application developed with VueJs and Laravel."
         },
         "londoncalling": {
             "title": "London Calling (Online Enrolment)",
-            "description": "Little description"
+            "description": "Level test and enrolment form. <br> Web application developed with VueJs and Laravel."
         },
         "exams": {
             "title": "ExamsLasPalmas",
-            "description": "Little description"
+            "description": "Web portal for Cambridge Assessment English exams. <br> Web application developed with VueJs and Laravel."
         }
     },
     "contact": {
