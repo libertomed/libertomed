@@ -45,23 +45,27 @@
         "go-life": "Go Live",
         "symbia":{
             "title": "Symbia",
-            "description": "Online clothing rental shop. <br> Web application and PWA developed with VueJs and Laravel. Contains integrations with APIs such as Genei, Redsys or Google Maps."
+            "description": "Online clothing rental shop. <br> Web application and PWA developed with VueJs and Laravel. Contains integrations with APIs such as Genei, Redsys or Google Maps"
         },
         "lcteu": {
             "title": "Low Cost Tour Europe",
-            "description": "Online shop for excursions and activities. <br> PWA developed with VueJs and Laravel. Contains integrations with APIs like Google Maps or client's private API."
+            "description": "Online shop for excursions and activities. <br> PWA developed with VueJs and Laravel. Contains integrations with APIs like Google Maps or client's private API"
         },
         "sportalis": {
             "title": "Sportalis",
-            "description": "Advanced web portal for the world of sports, where users can demand or offer services. <br> Web application developed with VueJs and Laravel."
+            "description": "Advanced web portal for the world of sports, where users can demand or offer services. <br> Web application developed with VueJs and Laravel"
         },
         "londoncalling": {
             "title": "London Calling (Online Enrolment)",
-            "description": "Level test and enrolment form. <br> Web application developed with VueJs and Laravel."
+            "description": "Level test and enrolment form. <br> Web application developed with VueJs and Laravel"
         },
         "exams": {
             "title": "ExamsLasPalmas",
-            "description": "Web portal for Cambridge Assessment English exams. <br> Web application developed with VueJs and Laravel."
+            "description": "Web portal for Cambridge Assessment English exams. <br> Web application developed with VueJs and Laravel"
+        },
+        "directotrips": {
+            "title": "Directo Trips",
+            "description": "Online shop for excursions and activities. <br> Web application developed with VueJs and Laravel. Contains integrations with APIs like Google Maps, Loro Park`s API or  client's private API"
         }
     },
     "contact": {

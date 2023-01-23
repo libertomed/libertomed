@@ -62,6 +62,10 @@
         "exams": {
             "title": "ExamsLasPalmas",
             "description": "Portal web gestor de los exámenes de Cambridge Assessment English. <br> Aplicación Web desarrollada con VueJs y Laravel."
+        },
+        "directotrips": {
+            "title": "Directo Trips",
+            "description": "Tienda online de excurciones y actividades. <br> Aplicación web desarrollada con VueJs y Laravel. Contiene integraciones con APIs como Google Maps, API de Loro Parque o API privada del cliente"
         }
     },
     "contact": {
